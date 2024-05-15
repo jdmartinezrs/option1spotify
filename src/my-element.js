@@ -223,6 +223,7 @@ export class MyMiddleSection extends LitElement {
   render() {
     return html`
       <div class = middleSection__container>
+     
         <div class = "middleSection__title"></div>
         <div class = "middleSection__image"></div>
         <div class = "middleSection__songTitle"></div>
