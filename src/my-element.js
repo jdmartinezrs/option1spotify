@@ -1,3 +1,5 @@
+
+
 import { LitElement, css, html } from 'lit'
 import infinitLogo from "/mastercard-line.svg"
 import userLogo from "/Ellipse 13.svg"
@@ -7,6 +9,8 @@ import heartLogo from "/Frame 23.svg"
 import bookLogo from "/Frame 20.svg"
 import gearLogo from "/Frame 22.svg"
 import exitLogo from "/Frame 26.svg"
+
+
 
 export class MyElement extends LitElement {
   
@@ -171,9 +175,9 @@ export class MyLeftSection extends LitElement {
 
   render() {
     return html`
-      <div class="leftSection__title"></div>
-      <div class="leftSection__topChart"></div>
-      <div class="leftSection__mayLike"></div>
+      <div class="leftSection__title"><title-pro></title-pro></div>
+      <div class="leftSection__topChart"><top-chart></top-chart></div>
+      <div class="leftSection__mayLike"><carru-sel></carru-sel> </div>
     `
   }
 
@@ -296,7 +300,7 @@ export class MyRightSection extends LitElement {
         <div class = "rightSection__title"></div>
         <div class = "rightSection__tools"></div>
         <div class = "rightSection__playingNext"></div>
-        <div class = "rightSection__Songs"></div>
+        <div class = "rightSection__Songs"><track-list></track-list></div>
       </div>
     `
   }
