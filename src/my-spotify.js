@@ -2,6 +2,9 @@ import { LitElement,html,css } from "lit";
 class mySpotify extends LitElement{
     static styles = css `
     .track{
+        displey:flex;
+        padding-top:90px;
+        align-items: center;
         width: 100%;
         height: 500px;
     }

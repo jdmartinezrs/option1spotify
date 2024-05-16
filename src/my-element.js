@@ -228,14 +228,8 @@ export class MyMiddleSection extends LitElement {
   render() {
     return html`
       <div class = middleSection__container>
-     
-        <div class = "middleSection__title"></div>
-        <div class = "middleSection__image"></div>
-        <div class = "middleSection__songTitle"></div>
-        <div class = "middleSection__barDuration"></div>
-        <div class = "middleSection__bottons"></div>
-        <div class = "middleSection__barVolume"></div>
-        <div class = "middleSection__deviceReference"></div>
+      <my-spotify id="embed-iframe"></my-spotify>
+        
       </div>
     `
   }
