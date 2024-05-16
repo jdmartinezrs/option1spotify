@@ -47,6 +47,11 @@ export class MyElement extends LitElement {
         border: 1px solid black;
         gap: .5em; 
       }
+
+      * {
+      font-family: Arial;
+      color:black;
+    }
       .leftBar{
         grid-column:1/2;
         /*background: red;*/

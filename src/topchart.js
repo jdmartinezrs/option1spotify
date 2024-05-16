@@ -16,6 +16,7 @@ class topchart extends LitElement{
 
   * {
     font-family: Arial;
+    color:black;
   }
 
   .music__container {

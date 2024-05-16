@@ -14,6 +14,7 @@ class titlepro extends LitElement{
 
   * {
     font-family: Arial;
+    color:black;
   }
 
 

@@ -1,5 +1,5 @@
 import { LitElement, css, html} from "lit";
-import { map } from "lit/directives/map.js";
+
 
 export class tracklist extends LitElement{ 
     static properties = {
@@ -60,6 +60,7 @@ export class tracklist extends LitElement{
 `;
 }
 
+
     static styles = css`
     .card {
       width: 300px;
@@ -67,6 +68,10 @@ export class tracklist extends LitElement{
       padding: 0;
   }
 
+  * {
+  font-family: Arial;
+  color:black;
+}
   .cards{
       background: white;
       height: 50px;
