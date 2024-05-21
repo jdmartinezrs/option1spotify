@@ -332,7 +332,8 @@ export class MyRightSection extends LitElement {
       .rightSection__Songs{
         grid-rows:4/5;
         background: white;
-        min-height: 620px 
+        min-height: 620px; 
+        overflow-y:hidden;
       }
     `
   }
